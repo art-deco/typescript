@@ -1,19 +1,19 @@
 import { equal, ok } from '@zoroaster/assert'
 import Context from '../context'
-import myNewPackage from '../../src'
+import typescript from '../../src'
 
 /** @type {TestSuite} */
 const T = {
   context: Context,
   'is a function'() {
-    equal(typeof myNewPackage, 'function')
+    equal(typeof typescript, 'function')
   },
   async 'calls package without error'() {
-    await myNewPackage()
+    await typescript()
   },
   async 'gets a link to the fixture'({ fixture }) {
     const text = fixture`text.txt`
-    const res = await myNewPackage({
+    const res = await typescript({
       text,
     })
     ok(res, text)

@@ -2,10 +2,10 @@ export {}
 
 /* typal types/api.xml namespace */
 /**
- * @typedef {_myNewPackage.myNewPackage} myNewPackage {{ description }}
- * @typedef {(config: !_myNewPackage.Config) => string} _myNewPackage.myNewPackage {{ description }}
+ * @typedef {_typescript.typescript} typescript TypeScript bug.
+ * @typedef {(config: !_typescript.Config) => string} _typescript.typescript TypeScript bug.
  */
 
 /**
- * @typedef {import('..').Config} _myNewPackage.Config
+ * @typedef {import('..').Config} _typescript.Config
  */

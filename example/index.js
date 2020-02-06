@@ -1,7 +1,7 @@
-import myNewPackage from '../src'
+import typescript from '../src'
 
 (async () => {
-  const res = await myNewPackage({
+  const res = await typescript({
     text: 'example',
   })
   console.log(res)

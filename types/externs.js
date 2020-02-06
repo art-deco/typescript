@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _typescript = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_typescript.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_typescript.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_typescript.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * TypeScript bug.
+ * @typedef {function(!_typescript.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_typescript.typescript

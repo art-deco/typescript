@@ -1,11 +1,11 @@
-# my-new-package
+# @artdeco/typescript
 
-%NPM: my-new-package%
+%NPM: @artdeco/typescript%
 
-`my-new-package` is {{ description }}
+`@artdeco/typescript` is TypeScript bug.
 
 ```sh
-yarn add my-new-package
+yarn add @artdeco/typescript
 ```
 
 ## Table Of Contents
