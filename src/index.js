@@ -35,6 +35,9 @@ export default async function typescript(config = {}) {
   return text
 }
 
+export { makeOceanOctopus } from './factory'
+
+
 /* typal types/index.xml namespace */
 /**
  * @typedef {_typescript.Config} Config `＠record` Options for the program.
